@@ -42,88 +42,51 @@ using namespace std;
                     system ("cls");
                     acc = velo / time;
                     cout << "Your acceletation is: " << acc << endl;
-                    system("cls");
-                    cout << "Would you like to go to the beginning?";
                   
                   }
         if (choice1 == 3)
-        {
-                    cout << "You chose kinematics equation number 1";
-                    system ("cls");
+        {           system ("cls");
+                    cout << "You chose kinematics equation number 1 \n\n";
+                    
                     
                     }
         if (choice1 == 4)
-        {
-                    cout << "You chose kinematics equation number 2";
-                    system ("cls");
+        {           system ("cls");
+                    cout << "You chose kinematics equation number 2 \n\n";
+                    
                     }
         if (choice1 == 5)
-        {
-                    cout << "You chose kinematics equation number 3";
-                    system ("cls");
+        {           system ("cls");
+                    cout << "You chose kinematics equation number 3 \n\n";
+                    
                     }
         if (choice1 == 6)
-        {
-                    cout << "You chose kinematics equation number 4";
-                    system ("cls");
+        {           system ("cls");
+                    cout << "You chose kinematics equation number 4 \n\n";
+                    
                     }
           }
      void Dynamics()
      {
-          
-          cout << "2 \n";
-          
-          }
-     void Projectiles()
-     {
-          
-          cout << "3 \n";
+		  system("cls")
+          cout << "you chose Dynamics \n\n";
+		  	  
           
           }
-     void CircularPlanetaryMotion()
-     {
-          
-          cout << "4 \n";
-          
-          }
-     void MomentumWorkEnergyMachnies()
-     {
-          
-          cout << "5 \n";
-          
-          }
-     void HeatThermodynamics()
-     {
-          
-          cout << "6 \n";
-          
-          }
-     void FluidsSolids()
-     {
-          
-          cout << "7 \n";
-          
-          }
-     void WavesSounds()
-     {
-          
-          cout << "8 \n";
-          
-          }
-          
-     void ElectricityMagnetism()
-     {
-          
-          cout << "9 \n";
-          
-          }
-     void Information()
+     void Projectiles(){}
+     void CircularPlanetaryMotion(){}
+     void MomentumWorkEnergyMachnies(){}
+     void HeatThermodynamics(){}
+     void FluidsSolids(){}
+     void WavesSounds(){}
+     void ElectricityMagnetism(){}
+     void information()
      {
           //si prefixes, physical constants and useful data, thermodynamics and coefficients of expansion
-          
-          
-          }
-     void constants()
-     {
-          
-          }
+	 }
+     void constants(){}
+	 void conversions(){}
+	 void addition(){}
+	 void subtraction(){}
+	 void multiplication(){}
+	 void division(){}
