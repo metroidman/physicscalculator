@@ -17,18 +17,17 @@ int main()
     restart:
     int area;
     BrtWhite();
-    cout << "Choose your area \n\n";
+    cout << "Choose your area\n\n";
     LtBlue();
-    cout << "\t1. Physics \n";
+    cout << "\t1. Physics\n";
     LtRed();
-    cout << "\t2. Math \n";
+    cout << "\t2. Math\n";
     LtAqua();
-    cout << "\t3. Constants and information \n\n";
+    cout << "\t3. Constants and information\n\n";
     BrtWhite();
-    cout << "Choose one: ";
+    cout << "Please Choose one: ";
     Normal();
     cin >> area;
-    // Physics Area ****************
     if (area == 1)
         {
             system("cls");
@@ -48,7 +47,7 @@ int main()
             cout << "\t8. Waves & Sounds \n";
             cout << "\t9. Electricity & Magnetism \n\n";
             BrtWhite();
-            cout << "Choose one: ";
+            cout << "Please Enter a number: ";
             Normal();
             cin >> choice;
             
@@ -62,44 +61,42 @@ int main()
              else if(choice == 8){system("cls"); WavesSounds();}
              else if(choice == 9){system("cls"); ElectricityMagnetism(); }
               else {system("cls"); cout << "Please enter a valid choice"<< endl; goto chooseagain;}      
-          } 
-          // Math Area ****************************       
+          }        
     if (area == 2)
-        {
-         system("cls"); 
-         int choice;
-		 chooseagain1:
-         LtRed();  
-         cout << "\t1. Addition \n";
-         cout << "\t2. Subtraction \n";
-         cout << "\t3. Multiplication \n";
-         cout << "\t4. Division \n\n";
-         cout << "Choose one: ";
-         cin >> choice;
-              if (choice == 1){system("cls"); Addition();}
-              else if (choice == 2){system("cls"); Subtraction();}
-              else if (choice == 3){system("cls"); Multiplication();}
-              else if (choice == 4){system("cls"); Division();}
-			  else {system("cls"); cout << "Please enter a valid choice"<< endl; goto chooseagain1;} 
-              
-              //put all variables in here   
-                 }
-				 // Everything else
+    {
+     system("clr"); 
+     int choice;
+     LtRed();  
+     cout << "\t1. Addition \n";
+     cout << "\t2. subtraction \n";
+     cout << "\t3. multiplication \n";
+     cout << "\t4. division \n\n";
+     cout << "Choose one: ";
+     cin >> choice;
+         if (choice == 1){}
+          if (choice == 2){}
+          if (choice == 3){}
+          if (choice == 4){}
+     
+          
+          //put all variables in here   
+             }
     if (area == 3)
     {
              int choice;
-			 chooseagain2:
     cout << "\t1. Constants \n";
-    cout << "\t2. Conversions \n";
-    cout << "\t3. Information \n\n";
+    cout << "\t2. Conversions\n";
+    cout << "\t3. Information\n\n";
     cout << "Choose one: ";
      cin >> choice;
-         if (choice == 1){system("cls");constants();}
-         else if (choice == 2){system("cls");conversions();}
-         else if (choice == 3){system("cls");information();}
-		 else {system("cls"); cout << "Please enter a valid choice"<< endl; goto chooseagain2;} 
-            // Constants and Informtion **********************************
-    }
+         if (choice == 1){constants();}
+         if (choice == 2){}
+         if (choice == 3){}
+    if (area == 4)
+    {
+             }
+             
+             }
     
  system ("pause");   
 }

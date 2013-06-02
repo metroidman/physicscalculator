@@ -29,64 +29,114 @@ using namespace std;
                   }
       if (choice1 == 2)
       {
-                    double acc;
-                    double velo;
-                    double time;
+                    double Acc;
+                    double Velo;
+                    double Time;
                     cout << "You Choose Acceleration.";
                     system ("cls");
                     cout << "Please enter the Velocity: ";
-                    cin >> velo;
+                    cin >> Velo;
                     system ("cls");
                     cout << "Please Enter the Time";
-                    cin >> time;
+                    cin >> Time;
                     system ("cls");
-                    acc = velo / time;
-                    cout << "Your acceletation is: " << acc << endl;
+                    Acc = Velo / Time;
+                    cout << "Your acceletation is: " << Acc << endl;
+                    system("cls");
                   
                   }
         if (choice1 == 3)
-        {           system ("cls");
-                    cout << "You chose kinematics equation number 1 \n\n";
-                    
-                    
+        {
+                    double IniVelo;
+                    double Time;
+                    double Acc;
+                    double Answer;
+                    cout << "You chose kinematics equation number 1";
+                    system("cls");
+                    cout << "Please Enter the Inital Velocity: ";
+                    cin >> IniVelo;
+                    system ("cls");
+                    cout << "Please Enter the Time in seconds: ";
+                    cin >> Time;
+                    system ("cls");
+                    cout << "Please Enter the Acceletation: ";
+                    cin >> Acc;
+                    system ("cls");
+                    Answer = (IniVelo * Time) + (((1/2) * Acc) * (Time * Time));
+                    cout << "Your Answer is: " << Answer << endl;
                     }
         if (choice1 == 4)
-        {           system ("cls");
-                    cout << "You chose kinematics equation number 2 \n\n";
-                    
+        {
+                    cout << "You chose kinematics equation number 2";
+                    system ("cls");
                     }
         if (choice1 == 5)
-        {           system ("cls");
-                    cout << "You chose kinematics equation number 3 \n\n";
-                    
+        {
+                    cout << "You chose kinematics equation number 3";
+                    system ("cls");
                     }
         if (choice1 == 6)
-        {           system ("cls");
-                    cout << "You chose kinematics equation number 4 \n\n";
-                    
+        {
+                    cout << "You chose kinematics equation number 4";
+                    system ("cls");
                     }
           }
      void Dynamics()
      {
-		  system("cls")
-          cout << "you chose Dynamics \n\n";
-		  	  
+          
+          cout << "2 \n";
           
           }
-     void Projectiles(){}
-     void CircularPlanetaryMotion(){}
-     void MomentumWorkEnergyMachnies(){}
-     void HeatThermodynamics(){}
-     void FluidsSolids(){}
-     void WavesSounds(){}
-     void ElectricityMagnetism(){}
-     void information()
+     void Projectiles()
+     {
+          
+          cout << "3 \n";
+          
+          }
+     void CircularPlanetaryMotion()
+     {
+          
+          cout << "4 \n";
+          
+          }
+     void MomentumWorkEnergyMachnies()
+     {
+          
+          cout << "5 \n";
+          
+          }
+     void HeatThermodynamics()
+     {
+          
+          cout << "6 \n";
+          
+          }
+     void FluidsSolids()
+     {
+          
+          cout << "7 \n";
+          
+          }
+     void WavesSounds()
+     {
+          
+          cout << "8 \n";
+          
+          }
+          
+     void ElectricityMagnetism()
+     {
+          
+          cout << "9 \n";
+          
+          }
+     void Information()
      {
           //si prefixes, physical constants and useful data, thermodynamics and coefficients of expansion
-	 }
-     void constants(){}
-	 void conversions(){}
-	 void addition(){}
-	 void subtraction(){}
-	 void multiplication(){}
-	 void division(){}
+          
+          
+          }
+     void constants()
+     {
+          
+          }
