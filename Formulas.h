@@ -67,8 +67,24 @@ using namespace std;
                     }
         if (choice1 == 4)
         {
+                    double IniVelo;
+                    double FVelo;
+                    double Time;
+                    double Disp;
+                    system ("cls");
                     cout << "You chose kinematics equation number 2";
                     system ("cls");
+                    cout << "Please Enter the Initial Velocity: ";
+                    cin >> IniVelo;
+                    system ("cls");
+                    cout << "Please Enter the Final Velocity: ";
+                    cin >> FVelo;
+                    system ("cls");
+                    cout << "Please Enter the Time: ";
+                    cin >> Time;
+                    system ("cls");
+                    Disp = (1/2)IniVel + FVelo * Time;
+                    cout << "The Displacement is" << Disp << endl;
                     }
         if (choice1 == 5)
         {
@@ -81,6 +97,8 @@ using namespace std;
                     system ("cls");
                     }
           }
+          // I Will have to rework this soon. since im not getting all the equations that there are. I also need to find a way to make the conversions for different input variables. if anyone knows an easy way tell me, Please.
+          // I am going to create a .h file just for knieomatics. Im going to move the void function to make it easier to redo.
      void Dynamics()
      {
           
